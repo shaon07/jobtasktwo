@@ -1,0 +1,13 @@
+.service_box {
+  background: antiquewhite;
+}
+.service_text ul li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.service_text ul li:hover {
+  color: red;
+}

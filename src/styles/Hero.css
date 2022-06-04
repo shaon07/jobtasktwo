@@ -1,0 +1,16 @@
+.hero-img img {
+  width: 80%;
+}
+.hero-right h5 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.hero-right h2 {
+  font-size: 3.2rem;
+  line-height: 2;
+}
+.mainHero {
+  background: #d7d0d03b;
+  padding: 3rem 0;
+}

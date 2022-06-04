@@ -1,0 +1,92 @@
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+}
+.Navbar_sec {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar_links ul {
+  display: flex;
+  padding-top: 12px;
+}
+.Navbar_links ul li {
+  list-style: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.NavBar_Button {
+  display: flex;
+}
+.Navbar_links {
+  grid-column: 3/9;
+}
+.NavBar_Button {
+  grid-column: 10/-1;
+  margin: auto;
+}
+.Navbar_Logo {
+  grid-column: 1/3;
+  margin: auto;
+}
+.NavBar_Button button {
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background: coral;
+  color: white;
+  border-radius: 35px;
+}
+.container-fluid.main_nav {
+  box-shadow: 0 0 5px;
+}
+.navbar_toggler i {
+  font-size: 2.2rem;
+}
+
+.navbar_toggler {
+  grid-column: -2;
+  display: none;
+}
+
+.Navbar_links2 ul li {
+  list-style: none;
+  font-size: 1.8rem;
+  color: red;
+}
+
+.Navbar_links2 {
+  text-align: center;
+}
+
+.NavBar_Button2 button {
+  border: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  background: antiquewhite;
+  border-radius: 50px;
+}
+
+.NavBar_Button2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+@media (max-width: 770px) {
+  .navbar_toggler {
+    display: block !important;
+  }
+  .NavBar_Button {
+    display: none;
+  }
+  .Navbar_links {
+    display: none;
+  }
+}

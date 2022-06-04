@@ -1,0 +1,20 @@
+.container-fluid.mainFooter {
+  background: #015a6c;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.footer_div ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_div ul li {
+  list-style: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer_div ul li:hover {
+  color: red;
+}

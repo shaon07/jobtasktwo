@@ -1,0 +1,16 @@
+.mainBlogs {
+  background: #b1b0b029;
+}
+.blog_posts {
+  background: white;
+  text-align: left;
+  padding: 1.5rem;
+}
+.blog_posts p {
+  font-size: 1.6rem;
+}
+
+.blog_posts h3 {
+  font-size: 2.2rem;
+  line-height: 1.6;
+}
